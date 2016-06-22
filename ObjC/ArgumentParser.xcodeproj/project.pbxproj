@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29F8933B1D1A7E4C003D76D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8933A1D1A7E4C003D76D5 /* main.m */; };
+		29F8933E1D1A7F85003D76D5 /* MBArgumentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8933D1D1A7F85003D76D5 /* MBArgumentParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		29F893241D1A7B9A003D76D5 /* ArgumentParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArgumentParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F8933A1D1A7E4C003D76D5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = SOURCE_ROOT; };
+		29F8933C1D1A7F85003D76D5 /* MBArgumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBArgumentParser.h; path = Source/MBArgumentParser.h; sourceTree = "<group>"; };
+		29F8933D1D1A7F85003D76D5 /* MBArgumentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBArgumentParser.m; path = Source/MBArgumentParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		29F8931B1D1A7B9A003D76D5 = {
 			isa = PBXGroup;
 			children = (
+				29F8933C1D1A7F85003D76D5 /* MBArgumentParser.h */,
+				29F8933D1D1A7F85003D76D5 /* MBArgumentParser.m */,
 				29F893261D1A7B9A003D76D5 /* ArgumentParser */,
 				29F893251D1A7B9A003D76D5 /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F8933E1D1A7F85003D76D5 /* MBArgumentParser.m in Sources */,
 				29F8933B1D1A7E4C003D76D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
